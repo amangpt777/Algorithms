@@ -1,5 +1,5 @@
 def rotate_array_1(arr, k, direction) :
-    print 'Rotating array by %d cells towards %s' % (k, direction)
+    print("Rotating array by %d cells towards %s" % (k, direction))
     lengthArray = len(arr)
     if lengthArray == 0 :
         return arr
@@ -36,4 +36,4 @@ def rotate_array_2(arr, k , direction) :
     
 arr = [2,3,5,6,1,0]
 arr = rotate_array_2(arr, 2, 'left')
-print arr
+print(arr)

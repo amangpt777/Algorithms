@@ -31,4 +31,4 @@ def partition(alist, p , r) :
 
 alist2 = [9, 7, 5, 11, 12, 2, 14, 3, 10, 6]
 quicksort(alist2, 0, 9)
-print alist2
+print(alist2)

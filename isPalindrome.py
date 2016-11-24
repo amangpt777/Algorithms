@@ -11,4 +11,4 @@ while i <= strgLength/2 :
 		break
 
 if(i == (strgLength / 2) + 1) :
-	print 'yes'
+	print('yes')
